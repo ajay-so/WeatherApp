@@ -19,7 +19,7 @@ export default function MapComponent({ coords }) {
         container: "map",
         style: maptilersdk.MapStyle.STREETS,
         center: coords,
-        zoom: 6,
+        zoom: 8,
       });
 
       mapRef.current = map;
@@ -53,7 +53,7 @@ export default function MapComponent({ coords }) {
       markerRef.current.setLngLat(coords);
       mapRef.current.flyTo({
         center: coords,
-        zoom: 6,
+        zoom: 8,
         essential: true,
       });
     }

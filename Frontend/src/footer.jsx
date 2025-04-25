@@ -13,8 +13,9 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-body-tertiary text-center p-3 shadow-sm w-full">
-      <b>Last Updated: </b> {lastUpdated || "Fetching..."}
+    <footer className="bg-body-tertiary d-sm-flex justify-content-around text-center p-3 shadow-sm w-full">
+      <p><b>Created by:</b>@Ajay Yadav</p>
+      <p><b>Last Updated: </b> {lastUpdated || "Fetching..."}</p>
     </footer>
 
   );

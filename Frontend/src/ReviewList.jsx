@@ -23,7 +23,7 @@ export default function ReviewList() {
 
   return (
     <div>
-      <div
+      <div className="border border-info"
         style={{
           backgroundColor: "white",
           borderRadius: "6px",
