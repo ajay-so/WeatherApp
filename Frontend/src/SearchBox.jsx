@@ -8,7 +8,7 @@ export default function SearchBox({ updateInfo }) {
 
     let getWeather = async () => {
         try {
-            let response = await axios.get(`https://weatherapp-vg4u.onrender.com/weather?city=${city}`);
+            let response = await axios.get(`https://weatherapp-poaq.onrender.com/weather?city=${city}`);
             let jsonResponse = response.data;
             let Info = {
                 city,

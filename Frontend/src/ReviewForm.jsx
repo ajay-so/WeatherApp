@@ -10,7 +10,7 @@ function ReviewForm() {
     const handleForm = async (event) => {
         event.preventDefault();
         try {
-            await axios.post("https://weatherapp-vg4u.onrender.com/weather/review", {
+            await axios.post("https://weatherapp-poaq.onrender.com/weather/review", {
                 name,
                 rating,
                 comment,
