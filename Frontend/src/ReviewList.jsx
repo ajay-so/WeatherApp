@@ -8,9 +8,9 @@ export default function ReviewList() {
   // Fetch reviews from backend
   const fetchReviews = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/weather/review");
+      const response = await axios.get("https://weatherapp-vg4u.onrender.com/weather/review");
       setReviews(response.data);
-    } catch (error) {
+    } catch (error) { 
       console.error("Error fetching reviews:", error);
     }
   };
