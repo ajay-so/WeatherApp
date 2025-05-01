@@ -53,7 +53,7 @@ export default function MapComponent({ coords }) {
       markerRef.current.setLngLat(coords);
       mapRef.current.flyTo({
         center: coords,
-        zoom: 8,
+        zoom: 6,
         essential: true,
       });
     }
